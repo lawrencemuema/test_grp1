@@ -1,0 +1,20 @@
+A Solutions Architect wants to automate the deployment of the AWS infrastructure hosting his application. He also wants to have consistent repeatable deployments of the infrastructure in the future. His application is to be hosted on an EC2 instance.  He wants to use CloudFormation to go about his deployments. You are required to come up with a solution as to how he will go about this.
+
+1. we->{ec2 / s3 template}. manually upload the files to s3, copy to ec2 and run, install localhost.
+2. we->{ec2 / s3 template}. manually upload the files to s3, copy to ec2 and run but we->{ install and start apache (userdata)}.
+3. we->{ec2, s3 template. copy any files in s3 to ec2, we install and start apache (userdata)}.
+4. s3 upload the files.
+
+"start with step 1 then reconviene to tackle the creativity aspect."
+
+ec2 commands:
+sudo su     -> enable you run everything as admin
+yum update -y     -> update your os
+yum install httpd -y    -> installs apache(localhost service) on your machine
+cd /var/www/html   ->navigate to the localhost folder
+wget objecturl     -> download s3 files. (make sure access is/was "public")
+unzip filename     -> unzip your s3 file
+mv filename/* .    -> move extracted files to current directory
+service httpd start    -> start your localhost(apache)
+
+ec2 IP address(public) run on browser.   ->should launch the website.
