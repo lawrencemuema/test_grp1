@@ -197,7 +197,7 @@
 					    </div>
 				    </div>
                       	<div class="heading-block center">
-						<h2>Is All About abc Finance & Investments Limited</h2>
+						<h2>Group 1 Is All About abc Finance & Investments Limited</h2>
 
 					</div>
                    
