@@ -95,7 +95,7 @@
 					<div class="swiper-slide dark" style="  background:linear-gradient(0deg,rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('images/landing/img1.jpg');">
 						<div class="container clearfix">
 							<div class="slider-caption slider-caption-center">
-								<h2 data-caption-animate="fadeInUp" style='font-size:40px'>Welcome to ABC LImited </h2>
+								<h2 data-caption-animate="fadeInUp" style='font-size:40px'>Welcome to GROUP 1 </h2>
 								<p data-caption-animate="fadeInUp" data-caption-delay="200">
 									
 									Investment Advisors, Management Consultants, Energy Consultants and Corporate Trainers
